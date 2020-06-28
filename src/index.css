@@ -18,7 +18,9 @@ body {
   width: 90%;
   margin: auto;
   background-color: white;
- 
+  padding: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 h1 {
@@ -32,9 +34,38 @@ p {
   text-align: left;
   width: 90%;
   margin: 10px auto;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.6;
 }
 footer {
-  background-color: hsl(217, 19%, 35%);
-  color: white;
+ /* background-color: hsl(217, 19%, 35%);
+  color: white;*/
+}
+.profile {
+  width: 20%;
+  border-radius: 50%;
+}
+figure {
+  display: flex;
+  width: 75%;
+}
+figcaption {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.profileSection {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+.shareSection {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  width: 25px;
+  margin: auto;
+  height: 25px;
 }
