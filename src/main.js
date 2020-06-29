@@ -1,10 +1,13 @@
 import React from 'react';
 import avatar from './images/avatar-michelle.jpg';
 import share from './images/icon-share.svg';
+import facebook from './images/icon-facebook.svg';
+import twitter from './images/icon-twitter.svg';
+import pinterest from './images/icon-pinterest.svg'
 
 const MainContent = () => {
     return (
-        <div class='container'>
+        <div className='container'>
             <h1>
                 Shift the overall look and feel by adding these wonderful
                 touches to furniture in your home
@@ -15,16 +18,29 @@ const MainContent = () => {
                 to help you make any room feel complete.
             </p>
             <footer>
-                <div class="profileSection">
+                <div className="profileSection">
                     <figure>
-                        <img class='profile' src={avatar} alt='profile' />
+                        <img className='profile' src={avatar} alt='profile' />
                         <figcaption>
                             <span>Michelle Appleton</span>
                             <span> 28 Jun 2020</span>
                         </figcaption>
                     </figure>
-                    <div class="shareSection">
-                        <img class='proceed' src={share} alt='share infor' />
+                    <div className="shareSection">
+                        <img class='proceed' src={share} alt='share infor'
+                         onClick={() => console.log("share1 clicked")} />
+                    </div>
+                    <div className="socialShare">
+                        <h2>Share</h2>
+                        <span className="socialIcons">
+                            <img src={facebook} alt="" />
+                            <img src={twitter} alt="" />
+                            <img src={pinterest} alt="" />
+                        </span>
+                        <span className="shareSection">
+                            <img className='proceed' src={share} alt='share infor'
+                            onClick={() => console.log("share2 clicked")} />
+                        </span>
                     </div>
                 </div>
             </footer>
