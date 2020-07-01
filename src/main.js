@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import avatar from './images/avatar-michelle.jpg';
 import share from './images/icon-share.svg';
 import facebook from './images/icon-facebook.svg';
@@ -6,6 +6,21 @@ import twitter from './images/icon-twitter.svg';
 import pinterest from './images/icon-pinterest.svg'
 
 const MainContent = () => {
+    const [showSocial, setShowSocial] = useState(false)
+    const toggleColor = () => {
+        const socialSection = document.querySelector(".socialShare");
+        console.log(socialSection);
+       // const profile = document.querySelector(".profileSection");
+        socialSection.classList.toggle("preview");
+      //  profile.classList.toggle("preview");
+      //  console.log(profile);
+       console.log("clicked 1")
+       if (!showSocial){
+           setShowSocial(true)
+       } else {
+           setShowSocial(false)
+       }
+    }
     return (
         <div className='container'>
             <h1>
@@ -28,7 +43,7 @@ const MainContent = () => {
                     </figure>
                     <div className="shareSection">
                         <img class='proceed' src={share} alt='share infor'
-                         onClick={() => console.log("share1 clicked")} />
+                            onClick={toggleColor} />
                     </div>
                     <div className="socialShare">
                         <h2>Share</h2>
@@ -39,7 +54,7 @@ const MainContent = () => {
                         </span>
                         <span className="shareSection">
                             <img className='proceed' src={share} alt='share infor'
-                            onClick={() => console.log("share2 clicked")} />
+                                onClick={toggleColor} />
                         </span>
                     </div>
                 </div>

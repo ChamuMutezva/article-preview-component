@@ -4,7 +4,7 @@ import drawer from './images/drawers.jpg'
 const Header = () => {
     return(
         <>
-        <div>
+        <div className="header">
             <img src={drawer} alt="" class="illustration" />
         </div>
         </>
