@@ -9,10 +9,11 @@ body {
 }
 
 .illustration {
-  margin: 40px auto 0;
-  width: 90%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  margin: 73px auto 0;
+  width: 87%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 28vh;
 }
 .container {
   width: 90%;
@@ -23,11 +24,13 @@ body {
 }
 
 h1 {
-	font-size: 1rem;
-	width: 90%;
-  margin: auto;
-  padding: 10px 0;
-	text-align: left;
+  font-size: 1rem;
+width: 90%;
+margin: auto;
+padding: 10px 0;
+text-align: left;
+line-height: 1.4;
+word-spacing: 2px;
 }
 p {
   text-align: left;
@@ -61,8 +64,7 @@ figcaption {
   display: flex;
   justify-content: center;
   padding: 10px;
-  align-items: center;
-  background: azure;
+  align-items: center; 
   width: 100%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
