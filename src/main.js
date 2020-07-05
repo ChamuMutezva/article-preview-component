@@ -37,8 +37,8 @@ const MainContent = () => {
                     <figure>
                         <img className='profile' src={avatar} alt='profile' />
                         <figcaption>
-                            <span>Michelle Appleton</span>
-                            <span> 28 Jun 2020</span>
+                            <span className="profileName">Michelle Appleton</span>
+                            <span className="dated"> 28 Jun 2020</span>
                         </figcaption>
                     </figure>
                     <div className="shareSection">

@@ -47,7 +47,7 @@ footer {
   color: white;*/
 }
 .profile {
-  width: min(20%, 175px);
+  width: min(12%, 160px);
   border-radius: 50%;
 }
 figure {
@@ -104,26 +104,56 @@ color: white;
   .App {
     text-align: center;
     display: flex;
-    width: 90%;
-margin: auto;
+    width: 70%;
+    padding-top: 200px;
+    margin-left: 210px;
 }
 
 .header {
-  width: 40%;
+  width: 36%;
+  margin: 0;
 }
 .illustration {
+  height: 42vh;
   border-top-left-radius: 12px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 0px;
 }
 .container {
-  width: 60%;  
-  margin: 73px auto 0;  
+  width: 54%;  
+  margin: 0;  
   border-top-left-radius: 0px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 20px;
+}
+h1 {
+  font-size: 1.4rem;
+  width: 81%;
+  margin-top: 27px;
+  margin-left: 37px;
+  word-spacing: 0px;
+  /* padding: 36px 0; */
+}
+p {
+  text-align: left;
+  width: 83%;
+  margin: 4px auto;
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.6;
+}
+figure { 
+    width: 80%;    
+    margin-left: 25px;
+    margin-top: 11px;
+}
+.profileName {
+margin-left: 21px;
+}
+.dated {
+margin-left: 0px;
 }
 
 }
