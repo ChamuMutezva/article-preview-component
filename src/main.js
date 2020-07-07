@@ -52,7 +52,7 @@ const MainContent = () => {
                             <img src={twitter} alt="" />
                             <img src={pinterest} alt="" />
                         </span>
-                        <span className="shareSection">
+                        <span className="shareSection hideShare">
                             <img className='proceed' src={share} alt='share infor'
                                 onClick={toggleColor} />
                         </span>

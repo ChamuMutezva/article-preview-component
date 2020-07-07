@@ -162,16 +162,21 @@ margin-left: 0px;
   left: 285px;
   border-radius: 20px;
   padding: 14px 30px;
+  justify-content: flex-end;
 }
 .socialShare::after {
   position: relative;
   content: "";
   width: 30px;
-  height: 40px;
+  height: 30px;
   top: 30px;
   transform: rotate(45deg);
   left: -105px;
   background-color: hsl(217, 19%, 35%);
+  /*z-index: -1;  for a pseudo element - the z-index should be -1 */
+}
+.hideShare {
+  display: none;
 }
 
 }
