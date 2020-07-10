@@ -42,7 +42,7 @@ const MainContent = () => {
                         </figcaption>
                     </figure>
                     <div className="shareSection">
-                        <img class='proceed' src={share} alt='share infor'
+                        <img className='proceed' src={share} alt='share infor'
                             onClick={toggleColor} />
                     </div>
                     <div className="socialShare preview">

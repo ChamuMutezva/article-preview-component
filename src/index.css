@@ -190,6 +190,12 @@ margin-left: 0px;
 .hideShare {
   display: none;
 }
+.socialIcons img {
+  margin-left: 20px;
+}
+.socialIcons img:first-child {
+  margin-left: 55px;
+}
 
 }
 
