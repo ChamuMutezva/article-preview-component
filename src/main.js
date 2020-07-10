@@ -45,7 +45,7 @@ const MainContent = () => {
                         <img class='proceed' src={share} alt='share infor'
                             onClick={toggleColor} />
                     </div>
-                    <div className="socialShare">
+                    <div className="socialShare preview">
                         <h2>Share</h2>
                         <span className="socialIcons">
                             <img src={facebook} alt="" />
