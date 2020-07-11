@@ -194,7 +194,7 @@ margin-left: 0px;
   margin-left: 20px;
 }
 .socialIcons img:first-child {
-  margin-left: 55px;
+ /* margin-left: 55px; */ /*on mozilla causing the icons to be very small*/
 }
 
 }
