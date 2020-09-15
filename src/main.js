@@ -8,9 +8,26 @@ import pinterest from './images/icon-pinterest.svg'
 const MainContent = () => {
     const [showSocial, setShowSocial] = useState(false)
     const toggleColor = () => {
+        const shareSection = document.querySelectorAll(".shareSection");
+        const imgShare = Array.from(document.querySelectorAll(".proceed"));
         const socialSection = document.querySelector(".socialShare");
-        console.log(socialSection);
+        console.log(imgShare)
+         
+        imgShare.forEach(elem => {
+            elem.classList.toggle("shareActionImg");
+        })
+        shareSection.forEach(elem => {
+            elem.classList.toggle("shareSectionDiv")
+        })
+       // if (imgShare.classList.contains("shareActionImg")) {
+       //     imgShare.classList.remove("shareActionImg")
+       // } else {
+       //     imgShare.classList.add("shareActionImg")
+       // }
+       
+       // console.log(socialSection);
        // const profile = document.querySelector(".profileSection");
+      // shareSection.classList.toggle("shareSectionDiv");
         socialSection.classList.toggle("preview");
       //  profile.classList.toggle("preview");
       //  console.log(profile);

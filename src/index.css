@@ -84,13 +84,16 @@ figcaption {
   margin: auto;
   height: 40px;
 }
-img.proceed {
-  /* width: 20px; */
-  /* height: 20px; */
-  /* display: block; */
-  /* margin: auto; */
+img.proceed { 
   padding: 10px;
 }
+.shareActionImg {
+  filter: invert(0%) sepia(3%) saturate(0%) hue-rotate(235deg) brightness(500%) contrast(105%);
+}
+.shareSectionDiv {
+  background-color: hsl(210deg 13% 47%); 
+}
+
 .socialShare {
   width: 100%;
 position: absolute;
@@ -135,7 +138,7 @@ color: white;
   border-bottom-right-radius: 0px;
 }
 .container {
-  width: 54%;  
+  width: 56%;  
   margin: 0;  
   border-top-left-radius: 0px;
   border-top-right-radius: 20px;
